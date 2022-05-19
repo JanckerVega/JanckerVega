@@ -1,0 +1,21 @@
+Na criação desse protótipo de semáforo foi utilizada as ferramentas do tinkercad, uma plataforma na qual eu nunca havia utilizado anteriormente
+por isso tive que recorrer a algumas ajudas vendo vídeos no youtube 
+Após ver os vídeos e absorver o necessário comecei a produção do meu semáforo
+e no fim das contas o código foi este:
+// C++ code
+//
+int contador = 0;
+
+void setup()
+{
+  pinMode(13, OUTPUT);
+}
+
+void loop()
+{
+  contador = (contador + 1);
+  if () {
+    digitalWrite(13, HIGH);
+    delay(10000); // Wait for 10000 millisecond(s)
+  }
+}
